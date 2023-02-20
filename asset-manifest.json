@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/chatBitrix/static/css/main.8d09abcb.css",
-    "main.js": "/chatBitrix/static/js/main.531e6819.js",
-    "static/media/milky-way.jpg": "/chatBitrix/static/media/milky-way.28c749a962cba03141f7.jpg",
-    "static/media/mariya.webp": "/chatBitrix/static/media/mariya.a92515c061b85c37bc6c.webp",
-    "static/media/eyes.svg": "/chatBitrix/static/media/eyes.287c837b7f1048eb0148.svg",
-    "static/media/ui-user.svg": "/chatBitrix/static/media/ui-user.5a4ab8761ccdc1924648.svg",
-    "index.html": "/chatBitrix/index.html",
-    "static/media/greenvoskl.svg": "/chatBitrix/static/media/greenvoskl.b60f88a0f65ab14f67ed.svg",
-    "main.8d09abcb.css.map": "/chatBitrix/static/css/main.8d09abcb.css.map",
-    "main.531e6819.js.map": "/chatBitrix/static/js/main.531e6819.js.map"
+    "main.css": "/Chat_Bitrix24/static/css/main.5199453d.css",
+    "main.js": "/Chat_Bitrix24/static/js/main.531e6819.js",
+    "static/media/milky-way.jpg": "/Chat_Bitrix24/static/media/milky-way.28c749a962cba03141f7.jpg",
+    "static/media/mariya.webp": "/Chat_Bitrix24/static/media/mariya.a92515c061b85c37bc6c.webp",
+    "static/media/eyes.svg": "/Chat_Bitrix24/static/media/eyes.287c837b7f1048eb0148.svg",
+    "static/media/ui-user.svg": "/Chat_Bitrix24/static/media/ui-user.5a4ab8761ccdc1924648.svg",
+    "index.html": "/Chat_Bitrix24/index.html",
+    "static/media/greenvoskl.svg": "/Chat_Bitrix24/static/media/greenvoskl.b60f88a0f65ab14f67ed.svg",
+    "main.5199453d.css.map": "/Chat_Bitrix24/static/css/main.5199453d.css.map",
+    "main.531e6819.js.map": "/Chat_Bitrix24/static/js/main.531e6819.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d09abcb.css",
+    "static/css/main.5199453d.css",
     "static/js/main.531e6819.js"
   ]
 }

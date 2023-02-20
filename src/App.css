@@ -1,0 +1,301 @@
+body {
+  background: #2958b4 url(img/milky-way.jpg) fixed 0 0 no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 95%;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding-bottom: 22px;
+}
+
+/*Users*/
+
+.users {
+  padding: 22px 18px 0 85px;
+  margin-bottom: 2px;
+  display: flex;
+  position: relative;
+}
+
+.users_img {
+  display: block;
+  background: url('img/ui-user.svg') center no-repeat #7b8691;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 18px;
+  top: 19px;
+}
+
+.users_wrapp {
+  position: relative;
+  color: #7f7f7f;
+  font-size: 14px;
+  line-height: 16px;
+  min-height: 23px;
+  padding: 0 55px 4px 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.users_wrapp_name {
+  color: #2067b0;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 4px 0 0;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.users_wrapp_data {
+  color: #828b95;
+  font-size: 12px;
+  margin: 0;
+  overflow: hidden;
+  padding: 8px 0 1px;
+  vertical-align: top;
+}
+
+.users_wrapp_add {
+  color: #525c69;
+  font-size: 14px;
+  padding: 12px 0 1px;
+  font-weight: 600;
+}
+
+/*greenCard*/
+
+.greenCard {
+  padding-left: 85px;
+  color: #151515;
+  padding: 0 28px 3px 85px;
+}
+
+.greenCard_card {
+  height: 92px;
+  width: 867px;
+  border-radius: 23px;
+  background-color: #f3fed6;
+  padding: 9px 15px;
+  margin-top: 12px;
+  position: relative;
+}
+
+.card_icon {
+  position: absolute;
+  right: 32px;
+  top: 23px;
+  width: 56px;
+  height: 56px;
+  background-color: transparent;
+  background-image: url('img/greenvoskl.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.card_userCard {
+  padding: 3px 0 3px 3px;
+  width: auto;
+  color: #535c69;
+  line-height: 24px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.userCard_icon {
+  display: inline-block;
+  float: none;
+  margin-right: 10px;
+  position: static;
+  vertical-align: middle;
+  background: url('img/mariya.webp') center no-repeat;
+  background-size: cover;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.userCard_name {
+  color: #0b66c3;
+  display: inline-block;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.userCard_name:hover {
+  border-bottom: 1px solid #0b66c3;
+}
+
+/*reaction*/
+
+.reaction {
+  padding-left: 85px;
+  font-size: 13px;
+}
+
+.reaction_list {
+  padding-top: 18px;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+.reaction_item {
+  margin: 0;
+  padding: 0 13px 5px 0;
+  font-size: 13px;
+  line-height: 13px;
+  color: #828b95;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.reaction_item_icon {
+  display: block;
+  background: url('img/eyes.svg') center no-repeat;
+  background-size: cover;
+  width: 12px;
+  height: 9px;
+  margin-right: 3px;
+}
+
+/*message*/
+
+.message {
+  padding-left: 85px;
+  margin-top: 10px;
+}
+
+.message_ures {
+  display: flex;
+  flex-direction: column;
+}
+
+.message_ures_fl {
+  display: flex;
+}
+
+.message_user_img {
+  background: url('img/ui-user.svg') center no-repeat #7b8691;
+  background-size: cover;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.message_user_mess {
+  max-width: 174px;
+  /* height: 52px; */
+  padding: 7px 21px 7px 15px;
+  border-radius: 23px;
+  background-color: #edf1f3;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.user_mess_name {
+  line-height: 16px;
+  font-size: 14px;
+  color: #0b66c3;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.mess_name_time {
+  color: #bcc2c7;
+  font-size: 11px;
+  display: inline-block;
+  margin-left: 7px;
+}
+
+.mess_name_description {
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.message_list {
+  padding-top: 8px;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 58px;
+}
+
+.message_item {
+  margin: 0;
+  padding: 0 13px 5px 0;
+  font-size: 13px;
+  line-height: 13px;
+  color: #828b95;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/*inputMessage*/
+
+.inputMessage {
+  padding-left: 85px;
+  margin-top: 10px;
+}
+
+.inputMessage_ures {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputMessage_ures_fl {
+  display: flex;
+}
+
+.inputMessage_user_img {
+  background: url('img/ui-user.svg') center no-repeat #7b8691;
+  background-size: cover;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.inputMessage_user_input {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 39px;
+  width: 818px;
+  border-radius: 25px;
+  border: 1px solid #a8adb4;
+}
+
+.inputMessage_user_input::placeholder {
+  padding-left: 18px;
+}

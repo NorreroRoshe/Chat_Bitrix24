@@ -92,7 +92,7 @@ h5 {
 
 .greenCard_card {
   height: 92px;
-  width: 867px;
+  max-width: 867px;
   border-radius: 23px;
   background-color: #f3fed6;
   padding: 9px 15px;
@@ -203,6 +203,8 @@ h5 {
 
 .message_ures_fl {
   display: flex;
+  position: relative;
+  padding-right: 28px;
 }
 
 .message_user_img {
@@ -211,6 +213,9 @@ h5 {
   width: 45px;
   height: 45px;
   border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 1px;
 }
 
 .message_user_mess {
@@ -220,7 +225,7 @@ h5 {
   border-radius: 23px;
   background-color: #edf1f3;
   overflow: hidden;
-  margin-left: 10px;
+  margin-left: 57px;
 }
 
 .user_mess_name {
@@ -266,6 +271,7 @@ h5 {
 
 .inputMessage {
   padding-left: 85px;
+  padding-right: 28px;
   margin-top: 10px;
 }
 
@@ -276,6 +282,7 @@ h5 {
 
 .inputMessage_ures_fl {
   display: flex;
+  position: relative;
 }
 
 .inputMessage_user_img {
@@ -284,10 +291,13 @@ h5 {
   width: 45px;
   height: 45px;
   border-radius: 50%;
+  position: absolute;
+  left: 1px;
+  top: -1px;
 }
 
 .inputMessage_user_input {
-  margin-left: 10px;
+  margin-left: 57px;
   cursor: pointer;
   font-size: 14px;
   height: 39px;
@@ -298,4 +308,10 @@ h5 {
 
 .inputMessage_user_input::placeholder {
   padding-left: 18px;
+}
+
+@media (max-width: 1221px) {
+  .container {
+    min-width: 798px;
+  }
 }
